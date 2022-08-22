@@ -1,0 +1,110 @@
+.topnav {
+  background-color:#ddbea9;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 15px 30px;
+  text-decoration: none;
+  font-size: 18px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color:#ffe8d6;
+  color:#6b705c;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color:#6b705c;
+  color: white;
+}
+
+
+
+h1 {
+  background-color: #ffe8d6;
+  padding-bottom:30px;
+  font-size:50px;
+  font-style:oblique;
+}
+
+
+
+h1 {
+  font-family: 'Roboto Mono', monospace;
+}
+.img2 {
+  height:700px;
+  width:900px;
+  object-fit:cover;
+  padding-left:80px;
+  padding-top:30px;
+
+}
+
+
+.logo {
+  padding-top: 0px;
+  height:300px;
+  width:400px;
+  object-fit: cover;
+}
+.img1 {
+  padding-left:80px;
+  padding-top:0px;
+  height:500px;
+  width:700px;
+}
+mark {
+  background-color: #ffe8d6;
+}
+h3 {
+    font-family: 'Roboto Mono', monospace;
+    float: right;
+    padding-top:25px;
+    padding-right:27px;
+    font-size:20px;
+    text-decoration: underline; 
+    text-decoration: italic; 
+    line-height:3;
+
+}
+h2 {
+    font-family: 'Roboto Mono', monospace;
+    font-weight:2px;
+}
+p {
+  font-size:30px;
+  padding-right:140px;
+
+}
+.g {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+/* Centered text */
+.centered {
+  position: absolute;
+  padding-top:3px;
+    font-family: 'Roboto Mono', monospace;
+    font-size:30px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
